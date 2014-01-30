@@ -1,0 +1,120 @@
+{
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "jid0-dhaAfnTbELdXQW61vGOADBujviY@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "isha-blog-updates/main", 
+ "manifest": {
+  "isha-blog-updates/main": {
+   "docsSHA256": null, 
+   "jsSHA256": "92137b8f4b8f8e9245bfadf2e6936ee0f579d54b8caaf64b9c0b97106b2e89f8", 
+   "moduleName": "main", 
+   "packageName": "isha-blog-updates", 
+   "requirements": {
+    "notifications": "sdk/notifications", 
+    "sdk/panel": "sdk/panel", 
+    "sdk/tabs": "sdk/tabs", 
+    "self": "sdk/self", 
+    "timer": "sdk/timers", 
+    "toolbarbutton": "toolbar-button-complete/toolbarbutton"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "toolbar-button-complete/persist": {
+   "docsSHA256": null, 
+   "jsSHA256": "7aa9d1a48bed632305e7cdbf979d4fdbe698401018bc19e656fcebc8b3d556b2", 
+   "moduleName": "persist", 
+   "packageName": "toolbar-button-complete", 
+   "requirements": {
+    "sdk/preferences/service": "sdk/preferences/service", 
+    "sdk/self": "sdk/self", 
+    "sdk/system/unload": "sdk/system/unload", 
+    "sdk/window/utils": "sdk/window/utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "toolbar-button-complete/toolbarbutton": {
+   "docsSHA256": null, 
+   "jsSHA256": "9f00e1effbe86085c0d94c909f657cc8dc07908f836585616ef12fd97a21ccbb", 
+   "moduleName": "toolbarbutton", 
+   "packageName": "toolbar-button-complete", 
+   "requirements": {
+    "./persist": "toolbar-button-complete/persist", 
+    "listen": "vold-utils/listen", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "unload+": "vold-utils/unload+", 
+    "window-utils": "sdk/deprecated/window-utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "vold-utils/listen": {
+   "docsSHA256": null, 
+   "jsSHA256": "74057caf6a837e6c8a3e8e73762b1bc08e69e6e087bee5401580a9249a34701c", 
+   "moduleName": "listen", 
+   "packageName": "vold-utils", 
+   "requirements": {
+    "unload+": "vold-utils/unload+"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "vold-utils/unload+": {
+   "docsSHA256": null, 
+   "jsSHA256": "0cc972b1ac0ccd44801915b8e3ece122087fe72073886a759c38b857a956c058", 
+   "moduleName": "unload+", 
+   "packageName": "vold-utils", 
+   "requirements": {
+    "unload": "sdk/system/unload"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "isha-blog-updates": {
+   "author": "regstuff", 
+   "description": "Say goodbye to cumbersome new tabs. Flip through the latest posts on the Isha Blog, watch the latest Sadhguru videos, listen to Sounds of Isha music, and follow tweets from Sadhguru, all with a simple mouseclick right from your browser.", 
+   "main": "main", 
+   "name": "isha-blog-updates", 
+   "version": "1.45"
+  }, 
+  "toolbar-button-complete": {
+   "author": "GiT", 
+   "description": "Creates a Toolbar Addon Button with optional popupmenu. (Position is persistent.)\n\n  Supports  submenus, and most menu-item attributes.\n  Expands on Erik Vold&#39;s Toolbar Button code.", 
+   "main": "lib/index", 
+   "name": "toolbar-button-complete", 
+   "version": "1.2.9"
+  }, 
+  "vold-utils": {
+   "author": "erikvold", 
+   "main": "lib/index", 
+   "name": "vold-utils", 
+   "version": "v1.3"
+  }
+ }, 
+ "name": "isha-blog-updates", 
+ "preferences": [
+  {
+   "name": "myBooleanPref", 
+   "title": "Isha Kriya Reminders", 
+   "type": "bool", 
+   "value": true
+  }
+ ], 
+ "sdkVersion": "1.15", 
+ "staticArgs": {}, 
+ "verbose": false
+}

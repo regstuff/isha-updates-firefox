@@ -6,3 +6,5 @@ An extension to keep track of updates on the Isha Blog (default page which can a
 You can also search an extensive online repository of Sadhguru's using the Wisdom Center search bar. A similar search function is present for Sadhguru’s Youtube Channel. The extension is also be configured to give you desktop popup reminders for your Isha Kriya sadhana every hour.
 
 More details at: http://blog.ishafoundation.org/inside-isha/announcements/isha-updates-browser-extension-addon
+
+Chrome extension dev page at: http://regstuff.github.io/isha-updates-chrome/

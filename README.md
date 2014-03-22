@@ -7,4 +7,4 @@ You can also search an extensive online repository of Sadhguru's using the Wisdo
 
 More details at: http://blog.ishafoundation.org/inside-isha/announcements/isha-updates-browser-extension-addon
 
-Chrome extension dev page at: http://regstuff.github.io/isha-updates-chrome/
+Chrome extension dev page at: https://github.com/regstuff/isha-updates-chrome
